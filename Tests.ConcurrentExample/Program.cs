@@ -10,6 +10,11 @@ namespace Tests.ConcurrentExample
     {
         static void Main(string[] args)
         {
+            TestMethod1.MockTest();
+            TestMethod2.MockTest();
+
+            TestMethod3.MockTest();
+            TestMethod4.MockTest();
         }
     }
 }
