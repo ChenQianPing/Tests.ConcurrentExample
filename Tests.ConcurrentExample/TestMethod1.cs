@@ -53,3 +53,12 @@ namespace Tests.ConcurrentExample
         }
     }
 }
+
+
+
+/**
+ * 背景   
+ * C#命名空间：System.Collenctions和System.Collenctions.Generic 中提供了很多列表、集合和数组。
+ * 例如：List<T>集合，数组Int[]，String[] ......，Dictory<T,T>字典等等。
+ * 但是这些列表、集合和数组的线程都不是安全的，不能接受并发请求。
+  */
